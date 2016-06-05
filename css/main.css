@@ -1,0 +1,46 @@
+.fullscreen-video {
+  position: fixed;
+  z-index: -100;
+  top: 50%;
+  left: 50%;
+
+  width: auto;
+  min-width: 100%;
+  height: auto;
+  min-height: 100%;
+
+  transform: translate(-50%, -50%);
+}
+
+header {
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+header h1 {
+  color: #fff;
+  padding-bottom: 1em;
+}
+
+header p {
+  color: rgba(255, 255, 255, 0.5);
+  
+}
+
+header p a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+}
+
+footer a {
+  
+  text-decoration: none;
+}
